@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        * {margin:0; padding:0;}
+        div { width:500px; height:400px;}
+        div:nth-child(1) {background-color: #ffd800;}
+        div:nth-child(2) {
+            background-color: #00ff21;
+            border: 5px solid #ff0000;
+            box-sizing: border-box; //크기 안쪽으로
+        }
+        div:nth-child(3) {
+            background-color: grey;
+            border: 5px dashed #ff0000;
+            box-sizing: content-box; //박스 바깥쪽으로
+        }
+        #content div:first-child {
+            width: 80%;
+            margin: 0 auto;
+            height: 400px;
+            background-image: url('https://postfiles.pstatic.net/MjAyMDA3MDJfNjIg/MDAxNTkzNjU0MDU4Mjc3.cfmAEKcnf4ksUlwlKPSiLywZUkiVWJdyaYm_EhHEOo4g.N-1h6wJp1cdG62DgI-Uoiw9codk45zCs84TBqBH17REg.JPEG.tech-plus/AKR20200701004100075_01_i_P4.jpg?type=w773');
+            background-size: 100%;
+        }
+        #content div:last-child {
+            width: 80%;
+            margin: 0 auto;
+            height: 400px;
+            background-image: url('https://postfiles.pstatic.net/MjAyMDA3MDJfNjIg/MDAxNTkzNjU0MDU4Mjc3.cfmAEKcnf4ksUlwlKPSiLywZUkiVWJdyaYm_EhHEOo4g.N-1h6wJp1cdG62DgI-Uoiw9codk45zCs84TBqBH17REg.JPEG.tech-plus/AKR20200701004100075_01_i_P4.jpg?type=w773');
+            background-size: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>content</div>
+    <div>content</div>
+    <div>content</div>
+
+    <div id="content">
+        <div>image 100%</div>
+        <div>image 50%</div>
+    </div>
+
+</body>
+</html>

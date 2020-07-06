@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        #wrap {width: 800px; margin: 0 auto;}
+        #header {border-bottom: 1px solid #cccccc;}
+
+        #content p:first-child::selection {
+            background-color: cornflowerblue;
+            color: aliceblue;
+            font-weight: bold;
+        }
+
+        #history2:first-letter, #history1:first-letter {font-size: 2em;}
+        #history2:first-line, #history1:first-line {font-weight: bold; color: darkblue;}
+
+        #footer ul {
+            overflow: hidden; border: 2px solid #cccccc;}
+        #footer ul li {
+            list-style: none; float: left; padding: 20px;
+        }
+
+        #content a {text-decoration: none;}
+        #content a::after {content: '-' attr(href);} <!-- 컨텐츠 - 링크 -->
+        #content li:not(.fa) {background-color: lightsteelblue;} <!--부정선택자: fa 클래스 제외-->
+
+    </style>
+
+
+</head>
+<body>
+    <div id="wrap">
+
+        <div id="header">
+            <h1>covid-19 news</h1>
+        </div>
+
+        <div id="content">
+            <p>
+                미국 뉴욕타임즈는 4일(현지시각) 239명의 과학자들이 공개서한을 통해 작은 비말 입자가 (공기 전파를 통해) 사람을 감염시킬 수 있다는 증거를 간략히 밝힌 뒤 예방 수칙 수정을 요구했다고 보도했다. 과학자들은 다음주 이 서한을 과학 저널에 게재할 계획이라고 신문은 덧붙였다.
+            </p>
+            <p id="history2">
+               2019년 07월 06일 <br />공기 전파와 관련해서는 기침이나 재채기를 할 때 튀어나오는 침방울이 중요하다.
+            </p>
+            <p id="history1">
+               2020년 07월 06일 <br />침방울은 최대 7~8m까지 날아갈 수 있지만 커다란 침방울은 2m를 넘지 못하고 바닥으로 떨어진다.
+            </p>
+
+            <ul>
+                <li class="fa"><a href="https://mportal.cau.ac.kr/main.do" target="_blank">중앙대학교 포털</a></li>
+                <li><a href="https://library.cau.ac.kr/#/" target="_blank">중앙대학교 학술정보원</a></li>
+                <li><a href="https://www.cau.ac.kr/cms/FR_CON/index.do?MENU_ID=100&CONTENTS_NO=1&P_TAB_NO=1#page1" target="_blank">중앙대학교 게시판</a></li>
+            </ul>
+
+        </div>
+
+        <div id="footer">
+            <ul>
+                <li><img src="https://mportal.cau.ac.kr/common/image/def/cau.logo.ko.png"></li>
+                <li><img src="https://mportal.cau.ac.kr/common/image/def/cau.logo.ko.png"></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

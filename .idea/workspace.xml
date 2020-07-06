@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="520f6ee2-4388-44eb-b4e5-87c0bf462de8" name="Default Changelist" comment="" />
+    <list default="true" id="520f6ee2-4388-44eb-b4e5-87c0bf462de8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/10강2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10강3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10강_CSS속성.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11강.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11강2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11강3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12강 3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12강.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12강2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12강4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12강5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13강.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13강2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14강_야후레이아웃.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15강_쇼핑몰레이아웃.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16강_웹폰트.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17~18강_스마트폰레이아웃.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19강.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1주차 주말과제.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4강.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5강.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6강_CSS기본.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7강.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7강2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7강3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8강.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8강2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/8강3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/9강.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_Ex1.html" beforeDir="false" afterPath="$PROJECT_DIR$/2강.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_ex2.html" beforeDir="false" afterPath="$PROJECT_DIR$/3강.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html_ex3.html" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +48,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dQwCjeIaabtkJ9oBJIkC8WHjNq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,7 +78,7 @@
       <updated>1592370498308</updated>
       <workItem from="1593825829556" duration="21000" />
       <workItem from="1593825889634" duration="908000" />
-      <workItem from="1593826817949" duration="8403000" />
+      <workItem from="1593826817949" duration="57997000" />
     </task>
     <servers />
   </component>

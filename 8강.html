@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        div {width: 300px; background-color: gold; margin:0 auto;}
+        ol li {font-size: 20px; font-weight: bold; color: grey;}
+        li:hover {color: blue; font-size: large;}
+
+        input:focus {border: 2px solid #ff0000}
+        input:enabled {color: grey; font-weight: bold;}
+        input:disabled {color: purple;}
+
+    </style>
+</head>
+<body>
+    <div>
+        <ol>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+            <li>menu4</li>
+        </ol>
+    </div>
+
+    <div>
+        <form>
+            이름: <input type="text" name="uname"> <br />
+            아이디: <input type="text" name="uid"> <br />
+            비밀번호: <input type="password" name="upw" value="12345" disabled="disabled"> <br />
+        </form>
+    </div>
+
+</body>
+</html>

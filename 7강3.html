@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        div li {background-color: grey;}
+        div p {font-size: medium;}
+        div > h1 {color: darkgreen;}
+
+        h3~div {font-size: 20px;}
+        h3+div {font-weight: bold;}
+        #title~div {width:300px; background-color: aquamarine;}
+    </style>
+
+</head>
+<body>
+    <div id="header">
+        <div class="logo">
+            <h1>LOGO</h1>
+        </div>
+        <div class="copy">
+            <h2>Global Company</h2>
+        </div>
+    </div>
+
+    <div id="wrap">
+        <p> 서울시 어쩌고 본문내용 </p>
+        <ul>
+            <li><p>서울대학교</p></li>
+            <li><p>서울대학교</p></li>
+            <li><p>서울대학교</p></li>
+            <li><p>서울대학교</p></li>
+            <li><p>서울대학교</p></li>
+        </ul>
+    </div>
+
+    <div id="footer">
+        <img src="https://mportal.cau.ac.kr/common/image/def/cau.logo.ko.png">
+    </div>
+
+    <h3 id="title">동위선택자(+,~)</h3>
+    <div>div01</div>
+    <div>div02</div>
+    <div>div03</div>
+    <div>div04</div>
+    <div>div05</div>
+
+</body>
+</html>

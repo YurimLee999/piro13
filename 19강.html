@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        * {margin:0; padding:0;}
+        body {font-family: Candara;}
+        li {list-style: none;}
+        a {text-decoration: none;}
+
+        #header {height: 100px; background-color: #137163;}
+
+        #header .logo_wrap {height: 50px; text-align: center; line-height: 50px; position: relative;}
+        #header .logo_wrap a {display: inline-block;}
+
+        #header .logo_wrap .menu {position: absolute; left:10px;}
+        #header .logo_wrap .logo {color: #282828; font-size: 1.3em; font-weight: bold;}
+        #header .logo_wrap .myinfo {float: left; position: absolute; right: 0; top: 0;}
+
+        #header #search {position: relative; overflow: hidden; width: 100%; height: 50px;}
+        #header #search input {float: left; width: 100%; height: 50px; border: 5px solid #ffd800; box-sizing: border-box; padding: 5px; font-size: 1.2em;}
+        #header #search img {float: left; position: absolute; right: 0; top: 0;}
+
+        #lnb ul {overflow: hidden; margin: 7px 0;}
+        #lnb ul li {
+            width: 16.6%; height: 30px; line-height: 30px; text-align: center;
+            float: left; margin: 0; padding: 0; border-right: 1px solid #cccccc; box-sizing: border-box;
+        }
+        #lnb ul li: last-child (border:0;)
+
+        #section #section_content_01 {overflow: hidden;}
+        #section #section_content_01 .row1 div{width: 50%; height: 135px; line-height: 100px; text-align: center; float: left; border: 2px;}
+        #section #section_content_01 .row1 div:last-child { float: right;}
+        #section #section_content_01 .row2 div{width: 50%; height: 135px; line-height: 100px; text-align: center; float: left; border: 2px;}
+        #section #section_content_01 .row2 div:last-child { float: right;}
+        #section #section_content_01 .row3 div{width: 50%; height: 135px; line-height: 100px; text-align: center; float: left; border: 2px;}
+        #section #section_content_01 .row3 div:last-child { float: right;}
+        #section #section_content_01 img {width:100%; height: inherit;}
+
+        #section #section_content_02 {overflow: hidden;}
+        #section #section_content_02 ul li {padding: 8px; border-bottom: 1px solid #cccccc; white-space: nowrap; overflow: hidden; text-overflow: }
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+    <header id="header">
+        <div id="header_wrap">
+            <div class="logo_wrap">
+                <a class="menu" href="#none" alt="menu"><img src="img/menu.png"/></a>
+                <a class="logo" href="#none" alt="logo">mobile logo</a>
+                <a class="myinfo" href="#none" alt="myinfo"><img src="img/myinfo.png"/></a>
+            </div>
+        </div>
+
+        <div id="search">
+            <input type="text" />
+            <a href="#none"><img src="img/search.png"/></a>
+        </div>
+    </header>
+
+    <div id="lnb">
+        <ul>
+            <li><a href="#none">lnb1</a></li>
+            <li><a href="#none">lnb2</a></li>
+            <li><a href="#none">lnb3</a></li>
+            <li><a href="#none">lnb4</a></li>
+            <li><a href="#none">lnb5</a></li>
+            <li><a href="#none">lnb6</a></li>
+        </ul>
+    </div>
+
+    <section id="section">
+        <div id="section_content_01">
+            <div class="row1">
+                <div><img src="https://i.pinimg.com/564x/69/82/0a/69820a309951c1dd42e9273437ed1ace.jpg"></div>
+                <div><img src="https://i.pinimg.com/564x/52/82/ed/5282edcf71a6090882db605b4e15f1ba.jpg"></div>
+            </div>
+            <div class="row2">
+                <div><img src="https://i.pinimg.com/564x/04/7e/ea/047eea3a0bc703e5d9fd2ca501d88ba5.jpg"></div>
+                <div><img src="https://i.pinimg.com/564x/d3/6d/fd/d36dfd3504dfce6e1a216af141d45fc6.jpg"></div>
+            </div>
+            <div class="row3">
+                <div><img src="https://i.pinimg.com/564x/cc/3f/00/cc3f00c756413039f4c04ecd95b22cb2.jpg"></div>
+                <div><img src="https://i.pinimg.com/564x/80/67/44/806744726aaf20d2460d95399c8d7453.jpg"></div>
+            </div>
+
+        <div id="section_content_02">
+            <ul>
+                <li><a href="#none"> The novel coronavirus spreading in South Korea now has its origin in Europe and the US, health authorities said Monday, and it is known to be six times as infectious as the original strain that emerged in China.</a></li>
+                <li><a href="#none"> The variant belongs to the GH clade, which has largely been circulated in Europe and the US, according to an analysis by Korea Centers for Disease Control and Prevention on 526 genome samples diagnosed with the COVID-19.</a></li>
+                <li><a href="#none"> This implies the virus could have arrived here via someone who came from those regions in March and April before Korea tightened virus controls on overseas arrivals, mandating a two-week quarantine for all.</a></li>
+                <li><a href="#none"> As we interpret it, the virus belonging to the GH clade is circulating recently because we had many arrivals from Europe and the US in March and April, and the virus imported then is now driving community transmissions</a></li>
+                <li><a href="#none"> Korea Centers for Disease Control and Prevention Director Jeong Eun-kyeong, at a briefing Monday.</a></li>
+            </ul>
+        </div>
+
+        <div id="section_content_03">
+            <ul>
+                <li>
+                    <p class="img"><a href="#none"><img src="https://i.pinimg.com/564x/19/02/aa/1902aa6c9438e25ea3a0d90f14c5dc82.jpg"/></a></p>
+                    <a class="txt">
+                        <a href="#none">
+                            <span>서울산업진흥원</span>
+                            <span>6일 법원에 따르면 이날 조주빈 공범으로 지목된 남모(29)씨의 구속 전 피의자심문(영장실질심사)을 맡은 원정숙 서울중앙지법 영장전담 부장판사는 구속영장 발부를 결정했다.</span>
+                        </a>
+                    </a>
+                </li>
+                <li>
+                    <p class="img"><a href="#none"><img src="https://i.pinimg.com/564x/19/02/aa/1902aa6c9438e25ea3a0d90f14c5dc82.jpg"/></a></p>
+                    <a class="txt">
+                        <a href="#none">
+                            <span>서울산업진흥원</span>
+                            <span>6일 법원에 따르면 이날 조주빈 공범으로 지목된 남모(29)씨의 구속 전 피의자심문(영장실질심사)을 맡은 원정숙 서울중앙지법 영장전담 부장판사는 구속영장 발부를 결정했다.</span>
+                        </a>
+                    </a>
+                </li>
+                <li>
+                    <p class="img"><a href="#none"><img src="https://i.pinimg.com/564x/19/02/aa/1902aa6c9438e25ea3a0d90f14c5dc82.jpg"/></a></p>
+                    <a class="txt">
+                        <a href="#none">
+                            <span>서울산업진흥원</span>
+                            <span>6일 법원에 따르면 이날 조주빈 공범으로 지목된 남모(29)씨의 구속 전 피의자심문(영장실질심사)을 맡은 원정숙 서울중앙지법 영장전담 부장판사는 구속영장 발부를 결정했다.</span>
+                        </a>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div id="footer_wrap">
+            <p>주소들어가는부분~</p>
+        </div>
+    </footer>
+
+</body>
+</html>
